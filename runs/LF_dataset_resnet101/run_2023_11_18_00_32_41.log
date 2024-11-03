@@ -1,0 +1,24 @@
+2023-11-18 00:32:41,878 INFO Let the games begin
+2023-11-18 00:32:41,878 INFO Using rcrop aug with params [540, 720]
+2023-11-18 00:32:41,879 INFO Using colornorm aug with params [[0.485, 0.456, 0.406], [0.229, 0.224, 0.225]]
+2023-11-18 00:32:41,879 INFO Using colornorm aug with params [[0.485, 0.456, 0.406], [0.229, 0.224, 0.225]]
+2023-11-18 00:32:41,919 INFO Using training seting {'n_workers': 0, 'train_iters': 30000, 'batch_size': 3, 'val_interval': 10, 'print_interval': 100, 'loss': {'name': 'CrossEntropyLoss', 'aux_weight': 0.4, 'ignore_index': 255}, 'optimizer': {'name': 'adaoptimizer', 'momentum': 0.9, 'wd': 0.0001, 'lr0': 0.01, 'max_iter': 30000, 'power': 0.9, 'warmup_steps': 400, 'warmup_start_lr': 1e-05}, 'train_augmentations': {'rcrop': [540, 720], 'colornorm': [[0.485, 0.456, 0.406], [0.229, 0.224, 0.225]]}, 'resume': '/home/crx_pinkpanda1/RGB-V/TDNet/pretrained/psp50.pkl', 'visdom': False}
+2023-11-18 00:34:02,626 INFO Overall Acc: 	: 0.678784660983735
+2023-11-18 00:34:02,626 INFO Mean Acc : 	: 0.19734813749036426
+2023-11-18 00:34:02,626 INFO FreqW Acc : 	: 0.596351246429481
+2023-11-18 00:34:02,627 INFO Mean IoU : 	: 0.12681943976162732
+2023-11-18 00:34:02,627 INFO 0: 0.6762292993507053
+2023-11-18 00:34:02,627 INFO 1: 5.561091801764577e-05
+2023-11-18 00:34:02,627 INFO 2: nan
+2023-11-18 00:34:02,627 INFO 3: nan
+2023-11-18 00:34:02,627 INFO 4: nan
+2023-11-18 00:34:02,627 INFO 5: 0.0
+2023-11-18 00:34:02,627 INFO 6: nan
+2023-11-18 00:34:02,627 INFO 7: 0.0
+2023-11-18 00:34:02,627 INFO 8: nan
+2023-11-18 00:34:02,627 INFO 9: nan
+2023-11-18 00:34:02,627 INFO 10: 0.0
+2023-11-18 00:34:02,627 INFO 11: nan
+2023-11-18 00:34:02,627 INFO 12: nan
+2023-11-18 00:34:02,627 INFO 13: nan
+2023-11-18 00:34:02,627 INFO 14: 0.08463172830104093

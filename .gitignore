@@ -1,0 +1,4 @@
+pretrained/
+output/
+__pycache__/
+runs/

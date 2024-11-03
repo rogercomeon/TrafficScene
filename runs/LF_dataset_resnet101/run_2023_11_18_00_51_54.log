@@ -1,0 +1,5 @@
+2023-11-18 00:51:54,466 INFO Let the games begin
+2023-11-18 00:51:54,467 INFO Using rcrop aug with params [540, 720]
+2023-11-18 00:51:54,467 INFO Using colornorm aug with params [[0.485, 0.456, 0.406], [0.229, 0.224, 0.225]]
+2023-11-18 00:51:54,467 INFO Using colornorm aug with params [[0.485, 0.456, 0.406], [0.229, 0.224, 0.225]]
+2023-11-18 00:51:54,511 INFO Using training seting {'n_workers': 0, 'train_iters': 30000, 'batch_size': 3, 'val_interval': 10, 'print_interval': 100, 'loss': {'name': 'CrossEntropyLoss', 'aux_weight': 0.4, 'ignore_index': 255}, 'optimizer': {'name': 'adaoptimizer', 'momentum': 0.9, 'wd': 0.0001, 'lr0': 0.01, 'max_iter': 30000, 'power': 0.9, 'warmup_steps': 400, 'warmup_start_lr': 1e-05}, 'train_augmentations': {'rcrop': [540, 720], 'colornorm': [[0.485, 0.456, 0.406], [0.229, 0.224, 0.225]]}, 'resume': '/home/crx_pinkpanda1/RGB-V/TDNet/pretrained/psp50.pkl', 'visdom': False}
