@@ -1,0 +1,11 @@
+imageio==2.31.1
+numpy==1.24.3
+oyaml==1.0
+Pillow==9.4.0
+Pillow==11.1.0
+scipy==1.15.1
+thop==0.1.1.post2209072238
+torch==2.6.0
+torchsummary==1.5.1
+torchvision==0.21.0
+tqdm==4.65.0
