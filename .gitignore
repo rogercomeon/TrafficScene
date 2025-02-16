@@ -1,4 +1,5 @@
-pretrained/
+pretrained/*
 output/
 __pycache__/
 runs/
+pretrained/
