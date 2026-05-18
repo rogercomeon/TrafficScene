@@ -18,3 +18,6 @@ You can run the testing with
 cd <root dir of this repo>
 python test_duo.py --config config/psp101.yml 
 ```
+
+I have placed the dataset link on Baidu Netdisk, sharing the file: TrafficScene
+Link: https://pan.baidu.com/s/1qNjouxg226TOtQwGaS9XGA?pwd=29ej Extraction code: 29ej
